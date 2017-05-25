@@ -1,0 +1,30 @@
+
+.DS_Store
+*.DS_Store
+.Trashes
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+*.swp
+
+#
+# *.lock - this is used and abused by many editors for many different things.
+#    For the main ones I use (e.g. Eclipse), it should be excluded
+#    from source-control, but YMMV.
+#   (lock files are usually local-only file-synchronization on the local FS that should NOT go in git)
+# c.f. the "OPTIONAL" section at bottom though, for tool-specific variations!
+
+*.lock
+.~lock.*
+
+
+#
+# .git
+#
+
+.git
+
+node_modules
+
+
+
