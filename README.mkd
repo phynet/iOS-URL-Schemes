@@ -1,4 +1,9 @@
-## URLS-SCHEMES
+## iOS URLS SCHEMES
+
+
+## Update
+
+The [gist](https://gist.github.com/phynet/471089a51b8f940f0fb4) I started on 2015 has now 201 stars (02/25/2017) and a lot of comments. But since gist does not provides a notification feature when someone comments and I can't answer right away. I hope with the issue area in github we can share more doubts and improvements. Thank You all!
 
 ### Note 
 _Apple will reject apps that are using private url schemes (Ugh, Apple....) if they are pretty much obvius. Some apps are rejected and others are not, so, be aware of this issue before implementing any of those URL's in your app as a feature._
@@ -170,6 +175,4 @@ https://github.com/Adorkable/SettingsAppAccessiOS
 
 [@antonjn](https://gist.github.com/antonjn), [@mikengyn](https://gist.github.com/mikengyn), [@johnny77221](https://gist.github.com/johnny77221), [@luismadrigal](https://gist.github.com/luismadrigal), [@guyromb](https://gist.github.com/guyromb), [@yoiang](https://gist.github.com/yoiang), [@deanlyoung](https://gist.github.com/deanlyoung)
 
-## Note
 
-This gist has 201 stars (02/25/2017) and a lot of comments. But since gist does not provides a notification feature when someone comments and I can't answer right away. I hope with the issue area we can share more doubts and improvements. Thank You all!
