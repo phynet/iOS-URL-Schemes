@@ -169,3 +169,7 @@ https://github.com/Adorkable/SettingsAppAccessiOS
 ## Contributions: 
 
 [@antonjn](https://gist.github.com/antonjn), [@mikengyn](https://gist.github.com/mikengyn), [@johnny77221](https://gist.github.com/johnny77221), [@luismadrigal](https://gist.github.com/luismadrigal), [@guyromb](https://gist.github.com/guyromb), [@yoiang](https://gist.github.com/yoiang), [@deanlyoung](https://gist.github.com/deanlyoung)
+
+## Note
+
+This gist has 201 stars (02/25/2017) and a lot of comments. But since gist does not provides a notification feature when someone comments and I can't answer right away. I hope with the issue area we can share more doubts and improvements. Thank You all!
