@@ -92,7 +92,7 @@ More info:
 | General | `prefs:root=General` | `App-prefs:root=General` |
 | Internet Tethering | `prefs:root=INTERNET_TETHERING` | `App-prefs:root=INTERNET_TETHERING` |
 | iTunes| `prefs:root=MUSIC` | `App-prefs:root=MUSIC` |
-| iTunes Equalizer | `prefs:root=MUSIC&path=EQ` | `App-pref:root=MUSIC&path=EQ` |
+| iTunes Equalizer | `prefs:root=MUSIC&path=EQ` | `App-prefs:root=MUSIC&path=EQ` |
 | iTunes Volume | `prefs:root=MUSIC&path=VolumeLimit` | `App-prefs:root=MUSIC&path=VolumeLimit`  |
 | Keyboard | `prefs:root=General&path=Keyboard` | `App-prefs:root=General&path=Keyboard`  |
 | Deeper in Keyboard | `prefs:root=General&path=Keyboard/KEYBOARDS` | `App-prefs:root=General&path=Keyboard/KEYBOARDS`  |
