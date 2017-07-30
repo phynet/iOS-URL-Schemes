@@ -98,6 +98,7 @@ More info:
 | Deeper in Keyboard | `prefs:root=General&path=Keyboard/KEYBOARDS` | `App-prefs:root=General&path=Keyboard/KEYBOARDS`  |
 | Lang International | `prefs:root=General&path=INTERNATIONAL` | `App-prefs:root=General&path=INTERNATIONAL`  |
 | ~~Location Services~~ | `prefs:root=LOCATION_SERVICES` | `App-prefs:root=LOCATION_SERVICES`  |
+| Mobile Data | ``| `App-prefs:root=MOBILE_DATA_SETTINGS_ID` |
 | Network | `prefs:root=General&path=Network` | `App-prefs:root=General&path=Network` |
 | Nike iPod | `prefs:root=NIKE_PLUS_IPOD` | `App-prefs:root=NIKE_PLUS_IPOD`|
 |  Notes | `prefs:root=NOTES` |`App-prefs:root=NOTES` |
