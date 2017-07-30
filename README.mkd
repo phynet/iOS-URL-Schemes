@@ -175,6 +175,6 @@ https://github.com/Adorkable/SettingsAppAccessiOS
 
 ## Contributions: 
 
-[@antonjn](https://gist.github.com/antonjn), [@mikengyn](https://gist.github.com/mikengyn), [@johnny77221](https://gist.github.com/johnny77221), [@luismadrigal](https://gist.github.com/luismadrigal), [@guyromb](https://gist.github.com/guyromb), [@yoiang](https://gist.github.com/yoiang), [@deanlyoung](https://gist.github.com/deanlyoung)
+[@antonjn](https://gist.github.com/antonjn), [@mikengyn](https://gist.github.com/mikengyn), [@johnny77221](https://gist.github.com/johnny77221), [@luismadrigal](https://gist.github.com/luismadrigal), [@guyromb](https://gist.github.com/guyromb), [@yoiang](https://gist.github.com/yoiang), [@deanlyoung](https://gist.github.com/deanlyoung), [@axlmagnum](https://github.com/axlmagnum)
 
 
