@@ -10,7 +10,7 @@ _Apple will reject apps that are using private url schemes (Ugh, Apple....) if t
 
 ### Updates
 
-*   [UPDATE 5] Apparently we're having problems with iOS 11 and schemes. it seems Apple changed one more time how we reach url schemes...some of them aren't working in mobile phones (but were working in simulator till' Xcode 9 GM) 
+*   [UPDATE 5] Apparently we're having problems with **iOS 11 and schemes**. it seems Apple changed one more time how we reach url schemes...some of them aren't working in mobile phones (but were working in simulator till' Xcode 9 GM) 
 
 * ~~[UPDATE 4] iOS 10 update: apparently settings now can be reached using App-Pref instead of prefs~~
 
