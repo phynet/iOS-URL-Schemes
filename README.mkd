@@ -48,7 +48,7 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  
  This is a work around to open your app's preferences, but it will crash if you don't have any. 
  
-Open apps's preferences only *#available(iOS 10.0, *):*
+Open apps's preferences
 
 ```swift
     if #available(iOS 10.0, *) {
@@ -74,12 +74,43 @@ Open apps's preferences
    }
 ```
 
+```swift
+    if #available(iOS 10.0, *) {
+        let url = NSURL(string:UIApplicationOpenSettingsURLString)! as URL
+        UIApplication.shared.open(URL(string:url))
+    }
+```
+
 
 ## Objective-c
 
   ```objective-c
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General&path=Keyboard"]];
   ```
+
+## Open App's settings extension
+
+```swift 
+extension UIApplication {
+   
+    func openAppSettings() {
+        if let url = URL(string:UIApplicationOpenSettingsURLString) {
+            openExpectedURL(url)
+        }
+    }
+    
+    fileprivate func openExpectedURL(_ url: URL) {
+        if UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+}
+```
 
 More info:
 
