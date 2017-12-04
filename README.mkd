@@ -74,9 +74,11 @@ Open apps's preferences
    }
 ```
 
+Open other apps preferences
+
 ```swift
     if #available(iOS 10.0, *) {
-        let url = NSURL(string:UIApplicationOpenSettingsURLString)! as URL
+        let url = NSURL(string:"App-prefs:root=General&path=Keyboard")! as URL
         UIApplication.shared.open(URL(string:url))
     }
 ```
