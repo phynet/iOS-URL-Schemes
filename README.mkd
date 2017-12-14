@@ -50,6 +50,8 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  
 Open apps's preferences:
 
+**Note: you don't to add `prefs` text inside URL Types**
+
 ```swift
     if #available(iOS 10.0, *) {
         UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
@@ -66,6 +68,8 @@ Open OS preferences:
 ## Swift 4.0
 
 Open apps's preferences:
+
+**Note: you don't to add `prefs` text inside URL Types**
 
 ```swift
    if #available(iOS 10.0, *) {
