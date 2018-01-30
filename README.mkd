@@ -132,7 +132,7 @@ More info:
 | Autolock iOS < 10 | `prefs:root=General&path=AUTOLOCK` | `App-prefs:root=General&path=AUTOLOCK`  |
 | Auto-Lock iOS > 10 | `prefs:root=DISPLAY&path=AUTOLOCK` | `App-prefs:root=DISPLAY&path=AUTOLOCK` |
 | Apple Pay / Wallet | `shoebox://url-scheme` | `shoebox://url-scheme` |
-| Batery | `prefs:root=BATTERY_USAGE` | `App-prefs:root=BATTERY_USAGE` |
+| Battery | `prefs:root=BATTERY_USAGE` | `App-prefs:root=BATTERY_USAGE` |
 | Brightness | `prefs:root=Brightness` | `App-prefs:root=Brightness` |
 | Bluetooth iOS < 9 | `prefs:root=General&path=Bluetooth` | `App-prefs:root=General&path=Bluetooth`|
 | Bluetooth iOS > 9 | `prefs:root=Bluetooth` | `App-prefs:root=Bluetooth` |
@@ -151,7 +151,7 @@ More info:
 | Deeper in Keyboard | `prefs:root=General&path=Keyboard/KEYBOARDS` | `App-prefs:root=General&path=Keyboard/KEYBOARDS`  |
 | Lang International | `prefs:root=General&path=INTERNATIONAL` | `App-prefs:root=General&path=INTERNATIONAL`  |
 | Location Services | `prefs:root=Privacy&path=LOCATION` | `App-Prefs:root=Privacy&path=LOCATION`  |
-| Mobile Data | ``| `prefs:root=MOBILE_DATA_SETTINGS_ID` |
+| Mobile Data |  | `prefs:root=MOBILE_DATA_SETTINGS_ID` |
 | Network | `prefs:root=General&path=Network` | `App-prefs:root=General&path=Network` |
 | Nike iPod | `prefs:root=NIKE_PLUS_IPOD` | `App-prefs:root=NIKE_PLUS_IPOD`|
 |  Notes | `prefs:root=NOTES` |`App-prefs:root=NOTES` |
