@@ -22,8 +22,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openSchemes(_ sender: AnyObject) {
+        openSOSettings()
+    }
+    
+    func openSettingsiOS9andless(){
+        //This is how it works in iOS < 11
         UIApplication.shared.openURL(NSURL(string:"App-Prefs:root=General&path=Keyboard")! as URL)
     }
+    
+    func openSettingsApp(){
+        if #available(iOS 10.0, *) {
+            let settingsUrl = NSURL(string:UIApplicationOpenSettingsURLString)! as URL
+            UIApplication.shared.open(settingsUrl, options: [:], completionHandler: nil)
+        }
+    }
+    
+    func openSOSettings(){
+        if #available(iOS 10.0, *) {
+            let url = NSURL(string:"App-prefs:root=General&path=Keyboard")! as URL
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    
     
     
 }
