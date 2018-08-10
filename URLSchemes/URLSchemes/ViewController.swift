@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openSchemes(_ sender: AnyObject) {
-        openSOSettings()
+        openSettingsApp()
     }
     
     func openSettingsiOS9andless(){
@@ -43,9 +43,22 @@ class ViewController: UIViewController {
             UIApplication.shared.open(url)
         }
     }
-    
-    
-    
-    
+}
+extension UIApplication {
+    func openAppSettings() {
+        if let url = URL(string:UIApplicationOpenSettingsURLString) {
+            openExpectedURL(url)
+        }
+    }
+
+    fileprivate func openExpectedURL(_ url: URL) {
+        if UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
 }
 

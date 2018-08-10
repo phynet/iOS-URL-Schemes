@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F88A041211E00840019717F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F88A040211E00840019717F /* Settings.bundle */; };
 		BCBA91CD1CEAFF2E00A13E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA91CC1CEAFF2E00A13E00 /* AppDelegate.swift */; };
 		BCBA91CF1CEAFF2E00A13E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA91CE1CEAFF2E00A13E00 /* ViewController.swift */; };
 		BCBA91D21CEAFF2E00A13E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA91D01CEAFF2E00A13E00 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F88A040211E00840019717F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BCBA91C91CEAFF2D00A13E00 /* URLSchemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSchemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA91CC1CEAFF2E00A13E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA91CE1CEAFF2E00A13E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BCBA91D31CEAFF2E00A13E00 /* Assets.xcassets */,
 				BCBA91D51CEAFF2E00A13E00 /* LaunchScreen.storyboard */,
 				BCBA91D81CEAFF2E00A13E00 /* Info.plist */,
+				6F88A040211E00840019717F /* Settings.bundle */,
 			);
 			path = URLSchemes;
 			sourceTree = "<group>";
@@ -108,7 +111,7 @@
 						LastSwiftMigration = 0820;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCBA91D71CEAFF2E00A13E00 /* LaunchScreen.storyboard in Resources */,
+				6F88A041211E00840019717F /* Settings.bundle in Resources */,
 				BCBA91D41CEAFF2E00A13E00 /* Assets.xcassets in Resources */,
 				BCBA91D21CEAFF2E00A13E00 /* Main.storyboard in Resources */,
 			);
