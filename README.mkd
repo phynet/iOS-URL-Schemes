@@ -1,7 +1,8 @@
 ## List for iOS URLS SCHEMES
 
+## UPDATE 
+From iOS 11 the schemes url's stoped working correctly. Be aware that from iOS 11 to now iOS 14 this won't work.
 
-## Update
 
 The [gist](https://gist.github.com/phynet/471089a51b8f940f0fb4) I started on 2015 has now 201 stars (02/25/2017) and a lot of comments. But since gist does not provides a notification feature when someone comments and I can't answer right away, I hope with the **issue** area in github we can share more doubts and improvements. Thank You all!
 
